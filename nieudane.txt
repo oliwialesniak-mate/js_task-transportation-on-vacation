@@ -1,3 +1,4 @@
+const calculateRentalCost = require('./calculateRentalCost');
 
 const DAILY_RATE = 40;
 const MID_TERM_DAYS = 3;
