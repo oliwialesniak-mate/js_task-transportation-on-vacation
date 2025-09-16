@@ -1,15 +1,9 @@
-
 const DAILY_RATE = 40;
 const MID_TERM_DAYS = 3;
 const MID_TERM_DISCOUNT = 20;
 const LONG_TERM_DAYS = 7;
 const LONG_TERM_DISCOUNT = 50;
 
-/**
- * Oblicza koszt wynajmu samochodu
- * @param {number} numberOfDays - liczba dni wynajmu
- * @returns {number} całkowity koszt
- */
 function calculateRentalCost(numberOfDays) {
   const basePrice = numberOfDays * DAILY_RATE;
 
