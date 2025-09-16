@@ -15,3 +15,4 @@ function calculateRentalCost(days) {
 console.log(calculateRentalCost(1)); // 40
 console.log(calculateRentalCost(3)); // 100
 console.log(calculateRentalCost(7)); // 230
+console.log(calculateRentalCost(5)); // 180
